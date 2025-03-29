@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:Lab2"
         mc:Ignorable="d"
         Title="VentanaCursos" Height="258" Width="500">
-    <Grid Margin="56,41,56,4">
+    <Grid Margin="56,41,56,5">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -19,8 +19,6 @@
         </Grid.ColumnDefinitions>
         <Label VerticalAlignment="Center" FontSize="20" Content="Luis" Margin="10,0,10,0"/>
         <TextBox Background="gray" Grid.Column="1" Margin="10,10,10,10" Grid.ColumnSpan="2"/>
-        <Label VerticalAlignment="Center" FontSize="20" Grid.Row="1" Content="Pedro" Margin="10,0,10,0"/>
-        <TextBox Background="Gray" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10" Grid.ColumnSpan="2"/>
         <Button FontSize="20" Content="Agregar" Grid.Row="2" Background="Yellow" Margin="50,50,50,50" Grid.ColumnSpan="3"/>
     </Grid>
 </Window>
